@@ -1,11 +1,10 @@
 import React from "react";
 
-function AboutMe() {
+const AboutMe = ({changePage}) => {
   return (
     <div className="AboutMe">
-      <header className="AboutMe-header">
-        <text>AboutMe</text>
-      </header>
+        <div>AboutMe</div>
+        <button onClick={() => changePage('App')}>Back to Home</button>
     </div>
   );
 }

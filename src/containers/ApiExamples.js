@@ -1,11 +1,10 @@
 import React from "react";
 
-function ApiExamples() {
+const ApiExamples = ({changePage}) => {
   return (
     <div className="ApiExamples">
-      <header className="ApiExamples-header">
-        <text>ApiExamples</text>
-      </header>
+        <div>ApiExamples</div>
+        <button onClick={() => changePage('App')}>Back to Home</button>
     </div>
   );
 }

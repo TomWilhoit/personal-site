@@ -1,11 +1,10 @@
 import React from "react";
 
-function Documents() {
+const Documents = ({changePage}) => {
   return (
     <div className="Documents">
-      <header className="Documents-header">
-        <text>Documents</text>
-      </header>
+        <div>Documents</div>
+        <button onClick={() => changePage('App')}>Back to Home</button>
     </div>
   );
 }

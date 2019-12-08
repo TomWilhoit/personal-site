@@ -1,11 +1,10 @@
 import React from "react";
 
-function Projects() {
+const Projects = ({changePage}) => {
   return (
     <div className="Projects">
-      <header className="Projects-header">
-        <text>Projects</text>
-      </header>
+        <div>Projects</div>
+        <button onClick={() => changePage('App')}>Back to Home</button>
     </div>
   );
 }
