@@ -1,12 +1,11 @@
-import React from "react";
+import React, { Component } from 'react'
 
-const ApiExamples = ({changePage}) => {
-  return (
-    <div className="ApiExamples">
-        <div>ApiExamples</div>
-        <button onClick={() => changePage('App')}>Back to Home</button>
-    </div>
-  );
+export default class ApiExamples extends Component {
+  render() {
+    return (
+      <div>
+        I'm a fan of ApiExamples
+      </div>
+    )
+  }
 }
-
-export default ApiExamples;

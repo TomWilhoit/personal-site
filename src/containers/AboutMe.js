@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Component } from 'react'
 
-const AboutMe = ({changePage}) => {
-  return (
-    <div className="AboutMe">
-        <div>AboutMe</div>
-        <button onClick={() => changePage('App')}>Back to Home</button>
-    </div>
-  );
+export default class AboutMe extends Component {
+  render() {
+    return (
+      <div>
+        IT'S ALL ABOUT ME
+      </div>
+    )
+  }
 }
 
-export default AboutMe;
