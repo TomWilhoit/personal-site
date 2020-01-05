@@ -1,0 +1,11 @@
+
+.home_container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.page_link {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
